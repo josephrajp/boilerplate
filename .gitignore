@@ -13,8 +13,6 @@ node_modules/
 .tmp/
 
 # OS or Editor folders
-/.vscode
-*.log
 .DS_Store
 Thumbs.db
 .cache
