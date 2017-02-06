@@ -1,0 +1,10 @@
+.page-section{
+  padding: rem(28) 0;
+  @include media($screen-md){
+    padding: rem(72) 0;
+  }
+  &--blue{
+    background-color: $mainBlue;
+    color: #fff;
+  }
+}

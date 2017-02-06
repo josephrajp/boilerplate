@@ -1,15 +1,15 @@
 module.exports = {
     entry: {
-        app:  "./app/assets/js/app.js",
-        vendor: "./app/assets/js/vendor.js"
+        App:  "./app/assets/scripts/App.js",
+        Vendor: "./app/assets/scripts/Vendor.js"
     },
     output: {
-        path: "./app/assets/scripts",
+        path: "./app/temp/scripts",
         filename: "[name].js"
     },
     module: {
         loaders: [{
-            loader: 'babel',
+            loader: 'babel-loader',
             query: {
                 presets: ['es2015']
             },
@@ -17,4 +17,4 @@ module.exports = {
             exclude: /node_modules/
         }]
     }
-};
+}
